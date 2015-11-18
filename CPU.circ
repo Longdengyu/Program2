@@ -520,9 +520,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="重置信号"/>
       <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="4" loc="(370,360)" name="D Flip-Flop">
-      <a name="trigger" val="falling"/>
-    </comp>
+    <comp lib="4" loc="(370,360)" name="D Flip-Flop"/>
     <comp lib="0" loc="(290,560)" name="Pin">
       <a name="facing" val="north"/>
       <a name="tristate" val="false"/>
@@ -8201,7 +8199,6 @@ c000
     </comp>
     <comp lib="4" loc="(510,390)" name="Register">
       <a name="width" val="1"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="MemtoReg"/>
     </comp>
     <comp lib="0" loc="(370,250)" name="Pin">
@@ -8247,12 +8244,10 @@ c000
     </comp>
     <comp lib="4" loc="(510,110)" name="Register">
       <a name="width" val="16"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="instruction"/>
     </comp>
     <comp lib="4" loc="(510,460)" name="Register">
       <a name="width" val="1"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="halt"/>
     </comp>
     <comp lib="0" loc="(370,1310)" name="Pin">
@@ -8275,12 +8270,10 @@ c000
     </comp>
     <comp lib="4" loc="(510,670)" name="Register">
       <a name="width" val="1"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="lui"/>
     </comp>
     <comp lib="4" loc="(510,1310)" name="Register">
       <a name="width" val="16"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="immediate：扩展后的立即数"/>
     </comp>
     <comp lib="0" loc="(610,40)" name="Pin">
@@ -8332,7 +8325,6 @@ c000
     </comp>
     <comp lib="4" loc="(510,1240)" name="Register">
       <a name="width" val="16"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="D02"/>
     </comp>
     <comp lib="0" loc="(610,180)" name="Pin">
@@ -8344,7 +8336,6 @@ c000
     </comp>
     <comp lib="4" loc="(510,600)" name="Register">
       <a name="width" val="1"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="slt"/>
     </comp>
     <comp lib="0" loc="(610,1170)" name="Pin">
@@ -8360,12 +8351,10 @@ c000
     </comp>
     <comp lib="4" loc="(510,320)" name="Register">
       <a name="width" val="1"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="RegWrite"/>
     </comp>
     <comp lib="4" loc="(510,740)" name="Register">
       <a name="width" val="1"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="disp"/>
     </comp>
     <comp lib="0" loc="(610,810)" name="Pin">
@@ -8376,7 +8365,6 @@ c000
     </comp>
     <comp lib="4" loc="(510,960)" name="Register">
       <a name="width" val="12"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="jump"/>
     </comp>
     <comp lib="0" loc="(610,1240)" name="Pin">
@@ -8394,7 +8382,6 @@ c000
     </comp>
     <comp lib="4" loc="(510,1030)" name="Register">
       <a name="width" val="4"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="OP"/>
     </comp>
     <comp lib="0" loc="(610,530)" name="Pin">
@@ -8409,7 +8396,6 @@ c000
       <a name="label" val="OP：操作码"/>
     </comp>
     <comp lib="4" loc="(510,890)" name="Register">
-      <a name="trigger" val="falling"/>
       <a name="label" val="offset"/>
     </comp>
     <comp lib="0" loc="(610,1030)" name="Pin">
@@ -8441,7 +8427,6 @@ c000
     </comp>
     <comp lib="4" loc="(510,530)" name="Register">
       <a name="width" val="1"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="MemWrite"/>
     </comp>
     <comp lib="0" loc="(610,110)" name="Pin">
@@ -8453,17 +8438,14 @@ c000
     </comp>
     <comp lib="4" loc="(510,180)" name="Register">
       <a name="width" val="4"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="ALUop"/>
     </comp>
     <comp lib="4" loc="(510,1170)" name="Register">
       <a name="width" val="16"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="D01"/>
     </comp>
     <comp lib="4" loc="(510,810)" name="Register">
       <a name="width" val="1"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="RegDst"/>
     </comp>
     <comp lib="0" loc="(370,320)" name="Pin">
@@ -8483,7 +8465,6 @@ c000
     </comp>
     <comp lib="4" loc="(510,1100)" name="Register">
       <a name="width" val="16"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="PC+1"/>
     </comp>
     <comp lib="0" loc="(370,460)" name="Pin">
@@ -8492,7 +8473,6 @@ c000
     </comp>
     <comp lib="4" loc="(510,250)" name="Register">
       <a name="width" val="1"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="ALUSrc"/>
     </comp>
     <comp lib="0" loc="(370,1170)" name="Pin">
@@ -9212,7 +9192,6 @@ c000
     </comp>
     <comp lib="4" loc="(450,1130)" name="Register">
       <a name="width" val="16"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="ALUout"/>
     </comp>
     <comp lib="0" loc="(310,200)" name="Pin">
@@ -9222,7 +9201,6 @@ c000
     </comp>
     <comp lib="4" loc="(450,1060)" name="Register">
       <a name="width" val="1"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="over：溢出标志位"/>
     </comp>
     <comp lib="0" loc="(310,620)" name="Pin">
@@ -9248,7 +9226,6 @@ c000
     </comp>
     <comp lib="4" loc="(450,480)" name="Register">
       <a name="width" val="1"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="halt"/>
     </comp>
     <comp lib="0" loc="(380,1320)" name="Pin">
@@ -9257,7 +9234,6 @@ c000
     </comp>
     <comp lib="4" loc="(450,760)" name="Register">
       <a name="width" val="1"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="disp"/>
     </comp>
     <comp lib="0" loc="(540,910)" name="Pin">
@@ -9279,17 +9255,14 @@ c000
     </comp>
     <comp lib="4" loc="(450,130)" name="Register">
       <a name="width" val="16"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="instruction"/>
     </comp>
     <comp lib="4" loc="(450,200)" name="Register">
       <a name="width" val="4"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="ALUop"/>
     </comp>
     <comp lib="4" loc="(450,910)" name="Register">
       <a name="width" val="16"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="jump-address：跳转地址"/>
     </comp>
     <comp lib="0" loc="(310,340)" name="Pin">
@@ -9323,7 +9296,6 @@ c000
     </comp>
     <comp lib="4" loc="(450,980)" name="Register">
       <a name="width" val="1"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="zero：0标志位"/>
     </comp>
     <comp lib="0" loc="(550,1200)" name="Pin">
@@ -9352,12 +9324,10 @@ c000
     </comp>
     <comp lib="4" loc="(450,830)" name="Register">
       <a name="width" val="1"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="RegDst"/>
     </comp>
     <comp lib="4" loc="(450,340)" name="Register">
       <a name="width" val="1"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="RegWrite"/>
     </comp>
     <comp lib="0" loc="(550,830)" name="Pin">
@@ -9368,12 +9338,10 @@ c000
     </comp>
     <comp lib="4" loc="(450,270)" name="Register">
       <a name="width" val="1"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="ALUSrc"/>
     </comp>
     <comp lib="4" loc="(450,690)" name="Register">
       <a name="width" val="1"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="lui"/>
     </comp>
     <comp lib="0" loc="(550,130)" name="Pin">
@@ -9424,7 +9392,6 @@ c000
     </comp>
     <comp lib="4" loc="(450,1200)" name="Register">
       <a name="width" val="16"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="MemOut"/>
     </comp>
     <comp lib="0" loc="(310,1130)" name="Pin">
@@ -9434,7 +9401,6 @@ c000
     </comp>
     <comp lib="4" loc="(450,620)" name="Register">
       <a name="width" val="1"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="slt"/>
     </comp>
     <comp lib="0" loc="(310,550)" name="Pin">
@@ -9453,7 +9419,6 @@ c000
     </comp>
     <comp lib="4" loc="(450,550)" name="Register">
       <a name="width" val="1"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="MemWrite"/>
     </comp>
     <comp lib="0" loc="(550,270)" name="Pin">
@@ -9464,7 +9429,6 @@ c000
     </comp>
     <comp lib="4" loc="(450,60)" name="Register">
       <a name="width" val="16"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="PC"/>
     </comp>
     <comp lib="0" loc="(550,1130)" name="Pin">
@@ -9480,7 +9444,6 @@ c000
     </comp>
     <comp lib="4" loc="(450,410)" name="Register">
       <a name="width" val="1"/>
-      <a name="trigger" val="falling"/>
       <a name="label" val="MemtoReg"/>
     </comp>
   </circuit>
