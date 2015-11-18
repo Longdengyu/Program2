@@ -15,7 +15,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="east"/>
     </tool>
     <tool name="Probe">
-      <a name="facing" val="south"/>
+      <a name="facing" val="north"/>
     </tool>
     <tool name="Tunnel">
       <a name="facing" val="east"/>
@@ -7155,7 +7155,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(570,700)" to="(570,810)"/>
     <wire from="(1270,490)" to="(1300,490)"/>
     <wire from="(700,410)" to="(700,440)"/>
-    <wire from="(100,760)" to="(110,760)"/>
     <wire from="(540,100)" to="(540,150)"/>
     <wire from="(1000,670)" to="(1000,790)"/>
     <wire from="(1690,340)" to="(1690,360)"/>
@@ -7356,6 +7355,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1700,470)" to="(1700,540)"/>
     <wire from="(640,660)" to="(680,660)"/>
     <wire from="(1160,400)" to="(1160,420)"/>
+    <wire from="(100,750)" to="(110,750)"/>
     <wire from="(1590,530)" to="(1590,540)"/>
     <wire from="(510,230)" to="(550,230)"/>
     <wire from="(320,630)" to="(330,630)"/>
@@ -7493,6 +7493,9 @@ c000
     <comp lib="0" loc="(460,430)" name="Bit Extender">
       <a name="out_width" val="1"/>
     </comp>
+    <comp lib="0" loc="(110,750)" name="Tunnel">
+      <a name="label" val="CK"/>
+    </comp>
     <comp lib="0" loc="(370,840)" name="Constant">
       <a name="facing" val="north"/>
     </comp>
@@ -7593,6 +7596,9 @@ c000
     </comp>
     <comp lib="0" loc="(1740,850)" name="Probe">
       <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(100,750)" name="Clock">
+      <a name="label" val="时钟"/>
     </comp>
     <comp lib="0" loc="(400,840)" name="Tunnel">
       <a name="facing" val="north"/>
@@ -7698,9 +7704,6 @@ c000
     <comp lib="0" loc="(960,310)" name="Probe">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="0" loc="(100,760)" name="Clock">
-      <a name="label" val="时钟"/>
-    </comp>
     <comp lib="0" loc="(530,170)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="4"/>
@@ -7747,9 +7750,6 @@ c000
     <comp lib="0" loc="(150,670)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="clr"/>
-    </comp>
-    <comp lib="0" loc="(110,760)" name="Tunnel">
-      <a name="label" val="CK"/>
     </comp>
     <comp lib="0" loc="(710,170)" name="Tunnel">
       <a name="facing" val="north"/>
